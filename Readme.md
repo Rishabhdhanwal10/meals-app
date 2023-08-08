@@ -1,7 +1,7 @@
 # Meals App
 
 An app that allows users to search for a meal and get the recipe for that meal.[click here to view the app] 
-
+https://rishabhdhanwal10.github.io/meals-app/
 
 ## App Interface
 

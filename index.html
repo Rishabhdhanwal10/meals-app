@@ -29,14 +29,26 @@
     <title>Find Meals For You</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-brown">
+    <!-- <nav class="navbar navbar-expand-lg bg-brown">
       <div class="container-fluid">
         <h2 id="title" class="navbar-brand">
           <i class="fa-solid fa-pizza-slice"></i> &nbsp; Search Meal
         </h2>
-        <a href="./favourite/favourite.html" id="favorite-meals-link">Favourite Meals</a>
+        <p><a href="./favourite/favourite.html" id="favorite-meals-link">Favourite Meals</a>
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <h2 id="title" class="navbar-brand" href="#">
+          <i class="fa-solid fa-pizza-slice"></i> &nbsp; Search Meal
+        </h2>
+        <h5>
+          <a href="./favourite/favourite.html" id="favorite-meals-link">Favourite Meals</a>
+        </h5>
       </div>
     </nav>
+
     <main class="d-flex flex-column justify-content-around align-items-center">
       <div class="search-container">
         <input
@@ -44,14 +56,14 @@
           id="search-meal-input"
           placeholder="Search for a meal"
         />
-        <button
+        <!-- <button
           type="submit"
           id="search-button"
           class="btn btn-sm btn-outline-dark"
         >
           <i class="fas fa-search"></i>
           Search
-        </button>
+        </button> -->
       </div>
       <div
         id="meal"

@@ -6,7 +6,7 @@ const mealDetailsContainer = document.getElementById("meal-details-container");
 const backButton = document.getElementsByClassName("back-button")[0];
 
 // Event Listeners
-searchButton.addEventListener("click", searchForMeal);
+// searchButton.addEventListener("click", searchForMeal);
 searchTextElement.addEventListener("input", searchForMeal);
 backButton.addEventListener("click", closeRecipeDetails);
 mealSearchResultsContainer.addEventListener("click", getRecipeDetails);
